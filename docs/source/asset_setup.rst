@@ -171,8 +171,13 @@ modules.
    .. code:: bash
 
        # You may be prompted for your root password at one or more times during this process.
-       npm install
-
+      
+     npm install
+     
+     If any errors try 
+     
+     sudo apt-get install build-essential
+     then, npm install grpc
    You now have all of the necessary prerequisites and Fabric artifacts.
    
 Asset Transfer with SDK
